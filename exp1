@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>www.Pdeu.ac.in</title>
+  <link rel="stylesheet" href="STYLE.CSS">
+</head>
+<body>
+
+  <div class="navbar">
+    <img   id="logo" src="pdeu.png" alt="" width="90px",height="90px">
+    <div class="main">
+    <div class="link">
+    <a href="About">About</a>
+    <a href="Academics">Academics</a>
+    <a href="Admission">Admission</a>
+    <a href="Student Activites">Student Activites</a>
+    <a href="Events">Events</a>
+    <img id="search"   src="search.png" alt=""height="30px",width="30px">
+    <input  id="place" type="placeholder" name="" id="">
+
+  </div>
+  </div>
+  </div>
+
+
+  <div class="main1">
+<img id="mainimage" src="65b7db9d3ffd1.jpeg" alt="",height="1px",width="100px">
+  </div>
+  
+  <hr id="hrr"   width="auto",size="7".color="red">
+  <button id="apply"> Apply For Admission</button>
+ <div class="faculty">
+  <h1>Faculty </h1>
+  <div class="photo">
+  <h1>1.Dr.Kamal Garg</h1>
+  <img id="f1"   src="kamal.garg_photo.jpg" alt="",width="136px",height= "115px";>
+  <h4>
+  Name   : Dr Kamal Garg <br>
+  Designation : Assistant Professor <br>
+  Email : Kamal.Garg@sot.pdpu.ac.in <br>
+  </h4>
+  <p id="para">
+  Education Qualififcation: <br>Ph.D (Wireless Communications, Indian Institute of Technology Indore), 2022 <br>
+  M.Tech. (Signal Processing, Netaji Subhash Institute of Technology (Now NSUT)), 2002
+  </p>
+
+  <h1>2. Dr.Vivek Pandit</h1>
+  <img id="f2"   src="vivek.pandit_photo.jpg" alt="",width="145px",height= "130px";>
+  <h4>
+  Name   : Dr Vivek Pandit <br>
+  Designation : Assistant Professor <br>
+  Email : Vivek.pandit@sot.pdpu.ac.in <br>
+  </h4>
+  <p id="para">
+  Education Qualififcation: <br>Ph.D (Wireless Communications, Indian Institute of Technology Indore), 2022 <br>
+  M.Tech. (Signal Processing, Netaji Subhash Institute of Technology (Now NSUT)), 2002
+  </p>
+
+
+
+  <h1>3. Dr.Soumyashree Panda</h1>
+  <img id="f2"   src="soumyashree.jpg" alt="",width="145px",height= "130px";>
+  <h4>
+  Name   : Dr Soumyashree Panda <br>
+  Designation : Assistant Professor <br>
+  Email : Soumyashree Panda@sot.pdpu.ac.in <br>
+  </h4>
+  <p id="para">
+  Education Qualififcation: <br>Ph.D (Wireless Communications, Indian Institute of Technology Indore), 2022 <br>
+  M.Tech. (Signal Processing, Netaji Subhash Institute of Technology (Now NSUT)), 2002
+  </p>
+
+
+
+
+
+
+  <h1>4. Dr.Gunjan Thakur</h1>
+  <img id="f2"   src="gunjan.jpg" alt="",width="145px",height= "130px";>
+  <h4>
+  Name   : Dr Gunjan Thakur <br>
+  Designation : Assistant Professor <br>
+  Email : Gunjan Thakur@sot.pdpu.ac.in <br>
+  </h4>
+  <p id="para">
+  Education Qualififcation: <br>Ph.D (Wireless Communications, Indian Institute of Technology Indore), 2022 <br>
+  M.Tech. (Signal Processing, Netaji Subhash Institute of Technology (Now NSUT)), 2002
+  </p>
+
+  </div>
+
+  <div class="faculty2">
+    <h1>Departments </h1>
+  </div>
+  <div class="mainnn1">
+  <div class="idepartment">
+    
+    <img   id="dimage1" src="https://api.pdeu.ac.in/pdpu/images/6107b07c73b65.jpeg" class="SchoolIcons_pdeuSchoolImage__Wlv1P hover-box-shadow     ">
+    <img  id="dimage1" src="https://api.pdeu.ac.in/pdpu/images/6107ae13d10b6.jpeg" class="SchoolIcons_pdeuSchoolImage__Wlv1P hover-box-shadow     ">
+    <img id="dimage1"    src="https://api.pdeu.ac.in/pdpu/images/6107af987f0e1.jpeg" class="SchoolIcons_pdeuSchoolImage__Wlv1P hover-box-shadow     ">
+    
+   
+  </div>
+  <div class="main">
+    <p id="paraaa"   >Study at the most vibrant and diverse campus in Gujarat with opportunity for  experience based learning.   <br> The overall University’s physical   infrastructure is designed to focus on the power of  ‘interdisciplinary research’.</p>
+
+    <div class="button">
+    <button  id="btn3" >More About Academics</button>
+    </div>
+  </div>
+  </div>
+  <hr class="HrLine",color="black">
+</body>
+</html>
+
+
+
+css
+
+.navbar{
+  background-color: brown;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    margin: -8px;
+    width: 1800px;
+}
+#logo{
+  margin: 52px;
+  padding: 0px;
+}
+
+.link{
+ 
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    justify-content: space-evenly;
+    font-size: 22px;
+    font-family: ui-sans-serif;
+    a:link{
+      color: antiquewhite;
+      background-color: transparent;
+      text-decoration: none;
+      margin-right: -171px;
+     
+    }
+}
+
+.main{
+  margin-top: -124px;
+}
+#search{
+  margin-right: -157px;
+  
+}
+#place{
+  border: 2px solid black;
+  width: 250px;
+  border-radius: 10px;
+  height:30px;
+}
+
+#mainimage {
+margin-left: -9px;
+margin-top: 9px;
+}
+#hrr{
+  color: brown;
+}
+
+#apply{
+  background-color: red;
+    font-family: cursive;
+    color: antiquewhite;
+    height: 39px;
+    width: 156px;
+    margin: 2px;
+    padding: 3px;
+    font-size: 14px;
+}
+.faculty{
+  background-color: brown;
+  height: 64px;
+  width: 2000px;
+  margin: 11px;
+  padding: 13px;
+  margin-left: -8px;
+
+}
+#f1{
+  width: 136px;
+    height: 115px;
+}
+
+#f2{
+  width: 145px;
+  height: 130px;
+}
+
+.photo{
+  background-color: bisque;
+    margin-left: -11px;
+    width: 2000px;
+}
+.faculty2{
+  background-color: brown;
+  height: 64px;
+  width: 2000px;
+  margin: 11px;
+  padding: 13px;
+  margin-left: -8px;
+}
+
+#dimage1{
+  width: 263px;
+  height: 250px;
+}
+.idepartment{
+ 
+  margin-right: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#paraaa{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  margin-top: 160px;
+  margin-left: 250px;
+  font-weight: 300;
+  
+
+}
+.mainnn1{
+  background-color: bisque;
+}
+
+#btn3{
+  border-radius: 6px;
+  background-color: brown;
+  color: antiquewhite;
+  font-size: 23px;
+  font-family: 'Times New Roman', Times, serif;
+  height: 54px;
+  width: 388px;
+}
+
+.button{
+  display: flex;
+    justify-content: center;
+}
+
+
