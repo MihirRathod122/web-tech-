@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Time Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>COLLEGE TIME TABLE</h1>
+    <table class="timetable">
+        <tr>
+            <td><h2>Day</h2></td>
+            <td><h3>9 - 10</h3></td>
+            <td><h3>10 - 11</h3></td>
+            <td><h3>11 - 12</h3></td>
+            <td><h3>12 - 01</h3></td>
+            <td><h3>1 - 2</h3></td>
+            <td><h3>2 - 3</h3></td>
+            <td><h3>3 - 4</h3></td>
+            <td><h3>4 - 5</h3></td>
+            <td><h3>5 - 6</h3></td>
+        </tr>
+        <tr>
+            <td><h2>MON</h2></td>
+            <td colspan="2" class="abc"><h3>BREAK</h3></td>
+            <td>AI F404</td>
+            <td class="abc"><h3>LUNCH</h3></td>
+            <td>EMBEDDED E201</td>
+            <td colspan="4" class="abc"><h3>BREAK</h3></td>
+        </tr>
+        <tr>
+            <td><h2>TUE</h2></td>
+            <td class="abc"><h3>BREAK</h3></td>
+            <td>AI F404</td>
+            <td colspan="2">EMBEDDED LAB F204</td>
+            <td class="abc"><h3>LUNCH</h3></td>
+            <td colspan="2">COMM. SKILLS E203</td>
+            <td class="abc"><h3>BREAK</h3></td>
+            <td>CDC C201/1</td>
+        </tr>
+        <tr>
+            <td><h2>WED</h2></td>
+            <td colspan="2">WEB LAB E214</td>
+            <td>EMBEDDED E203</td>
+            <td>CCN E203</td>
+            <td class="abc"><h3>LUNCH</h3></td>
+            <td colspan="2">CCN LAB E112-113</td>
+            <td>INDUSTRY F402</td>
+            <td>WEB E112-113</td>
+        </tr>
+        <tr>
+            <td><h2>THU</h2></td>
+            <td>CLOUD E201</td>
+            <td>CCN F404</td>
+            <td colspan="2">AI LAB E112-113</td>
+            <td class="abc"><h3>LUNCH</h3></td>
+            <td colspan="2">INDUSTRY LAB E214</td>
+            <td>INDUSTRY F402</td>
+            <td>WEB E204</td>
+        </tr>
+        <tr>
+            <td><h2>FRI</h2></td>
+            <td>AI E201</td>
+            <td>CCN E203</td>
+            <td>EMBEDDED E203</td>
+            <td class="abc"><h3>LUNCH</h3></td>
+            <td>CLOUD E201</td>
+            <td colspan="2">CLOUD LAB E212</td>
+            <td colspan="2" class="abc"><h3>BREAK</h3></td>
+        </tr>
+    </table>
+</body>
+</html>
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+.timetable {
+  width: 100%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+td {
+  padding: 15px;
+  text-align: center;
+  width: 150px;
+  border: 1px solid #ddd;
+}
+
+h2, h3 {
+  margin: 0;
+}
+
+.timetable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.timetable tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.timetable td, .timetable th {
+  border: 1px solid #ddd;
+}
+
+.timetable th {
+  background-color: #dcd3d1;
+}
